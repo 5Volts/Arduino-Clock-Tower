@@ -175,7 +175,7 @@ void timecheck(){
     int hr = now.hour();
 int mi = now.minute();
 int sec = now.second();
-  if(hr > -1 & hr < 1){
+  if(hr ==0){
 digitalWrite(53,0);
 digitalWrite(51,0);
 digitalWrite(49,0);
@@ -189,7 +189,7 @@ digitalWrite(31,0);
 digitalWrite(33,0);
 digitalWrite(35,0);
 }
-if(hr > 11 & hr < 13){
+if(hr ==12){
 digitalWrite(53,0);
 digitalWrite(51,0);
 digitalWrite(49,0);
@@ -203,7 +203,7 @@ digitalWrite(31,0);
 digitalWrite(33,0);
 digitalWrite(35,0);
 }
-if(hr > 0 & hr < 2){
+if(hr ==1){
 digitalWrite(53,1);
 digitalWrite(51,1);
 digitalWrite(49,1);
@@ -217,7 +217,7 @@ digitalWrite(31,1);
 digitalWrite(33,1);
 digitalWrite(35,0);
 }
-if(hr > 12 & hr < 14){
+if(hr ==13){
 digitalWrite(53,1);
 digitalWrite(51,1);
 digitalWrite(49,1);
@@ -231,7 +231,7 @@ digitalWrite(31,1);
 digitalWrite(33,1);
 digitalWrite(35,0);
 }
-if(hr > 1 & hr < 3){
+if(hr ==2){
 digitalWrite(53,1);
 digitalWrite(51,1);
 digitalWrite(49,1);
@@ -245,7 +245,7 @@ digitalWrite(31,1);
 digitalWrite(33,0);
 digitalWrite(35,0);
 }
-if(hr > 13 & hr < 15){
+if(hr ==14){
 digitalWrite(53,1);
 digitalWrite(51,1);
 digitalWrite(49,1);
@@ -259,7 +259,7 @@ digitalWrite(31,1);
 digitalWrite(33,0);
 digitalWrite(35,0);
 }
-if(hr > 2 & hr < 4){
+if(hr ==3){
 digitalWrite(53,1);
 digitalWrite(51,1);
 digitalWrite(49,1);
@@ -273,7 +273,7 @@ digitalWrite(31,0);
 digitalWrite(33,0);
 digitalWrite(35,0);
 }
-if(hr > 14 & hr < 16){
+if(hr ==15){
 digitalWrite(53,1);
 digitalWrite(51,1);
 digitalWrite(49,1);
@@ -287,7 +287,7 @@ digitalWrite(31,0);
 digitalWrite(33,0);
 digitalWrite(35,0);
 }
-if(hr > 15 & hr < 17){
+if(hr ==16){
 digitalWrite(53,1);
 digitalWrite(51,1);
 digitalWrite(49,1);
@@ -301,7 +301,7 @@ digitalWrite(31,0);
 digitalWrite(33,0);
 digitalWrite(35,0);
 }
-if(hr > 3 & hr < 5){
+if(hr ==4){
 digitalWrite(53,1);
 digitalWrite(51,1);
 digitalWrite(49,1);
@@ -315,7 +315,7 @@ digitalWrite(31,0);
 digitalWrite(33,0);
 digitalWrite(35,0);
 }
-if(hr > 16 & hr < 18){
+if(hr ==17){
 digitalWrite(53,1);
 digitalWrite(51,1);
 digitalWrite(49,1);
@@ -329,7 +329,7 @@ digitalWrite(31,0);
 digitalWrite(33,0);
 digitalWrite(35,0);
 }
-if(hr > 4 & hr < 6){
+if(hr ==5){
 digitalWrite(53,1);
 digitalWrite(51,1);
 digitalWrite(49,1);
@@ -343,7 +343,7 @@ digitalWrite(31,0);
 digitalWrite(33,0);
 digitalWrite(35,0);
 }
-if(hr > 17 & hr < 19){
+if(hr==18){
 digitalWrite(53,1);
 digitalWrite(51,1);
 digitalWrite(49,1);
@@ -357,7 +357,7 @@ digitalWrite(31,0);
 digitalWrite(33,0);
 digitalWrite(35,0);
 }
-if(hr > 5 & hr < 7){
+if(hr ==6){
 digitalWrite(53,1);
 digitalWrite(51,1);
 digitalWrite(49,1);
@@ -371,7 +371,7 @@ digitalWrite(31,0);
 digitalWrite(33,0);
 digitalWrite(35,0);
 }
-if(hr > 18 & hr < 20){
+if(hr==19){
 digitalWrite(53,1);
 digitalWrite(51,1);
 digitalWrite(49,1);
@@ -385,7 +385,7 @@ digitalWrite(31,0);
 digitalWrite(33,0);
 digitalWrite(35,0);
 }
-if(hr > 6 & hr < 8){
+if(hr ==7){
 digitalWrite(53,1);
 digitalWrite(51,1);
 digitalWrite(49,1);
@@ -399,7 +399,7 @@ digitalWrite(31,0);
 digitalWrite(33,0);
 digitalWrite(35,0);
 }
-if(hr > 19 & hr < 21){
+if(hr==20){
 digitalWrite(53,1);
 digitalWrite(51,1);
 digitalWrite(49,1);
@@ -413,7 +413,7 @@ digitalWrite(31,0);
 digitalWrite(33,0);
 digitalWrite(35,0);
 }
-if(hr > 7 & hr < 9){
+if(hr ==8){
 digitalWrite(53,1);
 digitalWrite(51,1);
 digitalWrite(49,1);
@@ -427,7 +427,7 @@ digitalWrite(31,0);
 digitalWrite(33,0);
 digitalWrite(35,0);
 }
-if(hr > 20 & hr < 22){
+if(hr ==21){
 digitalWrite(53,1);
 digitalWrite(51,1);
 digitalWrite(49,1);
@@ -441,7 +441,7 @@ digitalWrite(31,0);
 digitalWrite(33,0);
 digitalWrite(35,0);
 }
-if(hr > 8 & hr < 10){
+if(hr ==9){
 digitalWrite(53,1);
 digitalWrite(51,1);
 digitalWrite(49,1);
@@ -455,7 +455,7 @@ digitalWrite(31,0);
 digitalWrite(33,0);
 digitalWrite(35,0);
 }
-if(hr > 21 & hr < 23){
+if(hr ==22){
 digitalWrite(53,1);
 digitalWrite(51,1);
 digitalWrite(49,0);
@@ -469,7 +469,7 @@ digitalWrite(31,0);
 digitalWrite(33,0);
 digitalWrite(35,0);
 }
-if(hr > 9 & hr < 11){
+if(hr ==10){
 digitalWrite(53,1);
 digitalWrite(51,1);
 digitalWrite(49,0);
@@ -483,7 +483,7 @@ digitalWrite(31,0);
 digitalWrite(33,0);
 digitalWrite(35,0);
 }
-if(hr > 22 & hr < 24){
+if(hr ==23){
 digitalWrite(53,1);
 digitalWrite(51,0);
 digitalWrite(49,0);
@@ -497,7 +497,7 @@ digitalWrite(31,0);
 digitalWrite(33,0);
 digitalWrite(35,0);
 }
-if(hr > 10 & hr < 12){
+if(hr ==11){
 digitalWrite(53,1);
 digitalWrite(51,0);
 digitalWrite(49,0);
@@ -511,7 +511,7 @@ digitalWrite(31,0);
 digitalWrite(33,0);
 digitalWrite(35,0);
 }
-if(hr > 23 & hr < 25){
+if(hr ==24){
 digitalWrite(53,0);
 digitalWrite(51,0);
 digitalWrite(49,0);
@@ -525,7 +525,7 @@ digitalWrite(31,0);
 digitalWrite(33,0);
 digitalWrite(35,0);
 }
-if(hr > 11 & hr < 13){
+if(hr ==12){
 digitalWrite(53,0);
 digitalWrite(51,0);
 digitalWrite(49,0);
