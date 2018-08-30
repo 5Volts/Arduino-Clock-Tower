@@ -4,5 +4,5 @@ Upload the sketch onto your Arduino Mega. If you connected the LEDs to different
 
 Here are the links to [Instructables](https://www.instructables.com/id/DIY-LED-Dual-Clock-Tower/) and [Video](https://www.youtube.com/watch?v=3JY76sLfSo4)
 
-# Important notes
+# Dependencies
 Ensure that you have Wire.h and RTClib.h libraries installed on your Arduino IDE.
